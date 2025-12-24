@@ -1,5 +1,1 @@
-ro.vendor.oplus.regionmark=EUEX
-
-# Regional properties
-ro.product.property_source_order=odm,vendor,product,system_ext,system
-import /odm/etc/${ro.boot.prjname}/build.default.prop
+ro.vendor.oplus.regionmark=CN

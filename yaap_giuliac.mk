@@ -8,17 +8,17 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from giulia device
-$(call inherit-product, device/oneplus/giulia/device.mk)
+# Inherit from giuliac device
+$(call inherit-product, device/oneplus/giuliac/device.mk)
 
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-PRODUCT_NAME := yaap_giulia
-PRODUCT_DEVICE := giulia
+PRODUCT_NAME := yaap_giuliac
+PRODUCT_DEVICE := giuliac
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2691
+PRODUCT_MODEL := PKG110
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
@@ -31,9 +31,9 @@ TARGET_SCREEN_WIDTH := 1264
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=OP5D3BL1 \
-    DeviceProduct=CPH2691 \
-    SystemDevice=OP5D3BL1 \
-    SystemName=CPH2691
+    DeviceName=OP5D2BL1 \
+    DeviceProduct=PKG110 \
+    SystemDevice=OP5D2BL1 \
+    SystemName=PKG110
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus

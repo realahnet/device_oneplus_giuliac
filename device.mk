@@ -38,8 +38,7 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set,qtidisplay,bitclk_rate_permissive,true)
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,1)
-$(call soong_config_set,qtidisplay,sm8650_pxlw_vendor_namespace,vendor/oneplus/waffle)
-$(call soong_config_set,qtidisplay,sm8650_pxlw_hw_iris7,true)
+$(call soong_config_set,qtidisplay,sm8650_pxlw_vendor_namespace,vendor/oneplus/giuliac)
 
 # DisplayConfig
 PRODUCT_COPY_FILES += \
@@ -82,26 +81,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
-# Regional properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23867/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23867/build.default.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23867/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/23867/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23867/build.NA.prop:$(TARGET_COPY_OUT_ODM)/etc/23867/build.NA.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/23867/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/23867/build.default.prop
-
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 35
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# Telephony
-PRODUCT_PACKAGES += \
-    OplusEuicc
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
 # Vibrator
 PRODUCT_PACKAGES += \
@@ -121,4 +106,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/oneplus/sm8650-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/giulia/giulia-vendor.mk)
+$(call inherit-product, vendor/oneplus/giuliac/giuliac-vendor.mk)

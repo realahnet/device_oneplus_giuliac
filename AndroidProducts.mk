@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_giulia.mk
+    $(LOCAL_DIR)/yaap_giuliac.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_giulia-user \
-    yaap_giulia-userdebug \
-    yaap_giulia-eng
+    yaap_giuliac-user \
+    yaap_giuliac-userdebug \
+    yaap_giuliac-eng

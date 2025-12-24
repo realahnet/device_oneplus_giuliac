@@ -5,15 +5,15 @@
 #
 
 # Partitions
-BOARD_SUPER_PARTITION_SIZE := 14266433536
+BOARD_SUPER_PARTITION_SIZE := 14578294784
 
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8650-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/giulia
+DEVICE_PATH := device/oneplus/giuliac
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP5D3BL1
+TARGET_OTA_ASSERT_DEVICE := OP5D2BL1
 
 # Charging
 TARGET_CHARGE_RATE_MULTIPLIER := 1000
@@ -32,4 +32,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/giulia/BoardConfigVendor.mk
+include vendor/oneplus/giuliac/BoardConfigVendor.mk
