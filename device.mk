@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set,qtidisplay,bitclk_rate_permissive,true)
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,1)
-$(call soong_config_set,qtidisplay,sm8650_pxlw_vendor_namespace,vendor/oneplus/giuliac)
 
 # DisplayConfig
 PRODUCT_COPY_FILES += \
