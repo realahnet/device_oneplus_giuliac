@@ -14,21 +14,6 @@ PRODUCT_PACKAGES += \
     tri-state-key-calibrate
 
 # Audio
-AUDIO_HAL_DIR := hardware/qcom-caf/sm8650/audio/primary-hal
-CONFIG_PAL_SRC_DIR := $(AUDIO_HAL_DIR)/../pal/configs/pineapple
-
-PRODUCT_PACKAGES += \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
-    liblx-ar_util \
-    liblx-osal \
-    vendor.qti.hardware.AGMIPC@1.0 \
-    vendor.qti.hardware.AGMIPC@1.0-impl
-
-PRODUCT_COPY_FILES += \
-    $(CONFIG_PAL_SRC_DIR)/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \

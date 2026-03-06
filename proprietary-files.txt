@@ -39,16 +39,10 @@ odm/vendor/firmware/antdtx.b08
 odm/vendor/firmware/antdtx.mdt
 
 # Audio
-odm/etc/init/init.audio.rc
 odm/lib64/liboprec_audrec.so
 odm/lib64/liboprec_audrec_wrapper.so
 odm/lib64/libtfa98xx.so
 vendor/etc/mem_logger_config.xml
-vendor/lib64/hw/audio.primary.pineapple.so;DISABLE_CHECKELF
-vendor/lib64/libagm.so;DISABLE_CHECKELF
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
-vendor/lib64/libarmemlog.so;DISABLE_CHECKELF
-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so;DISABLE_CHECKELF
 
 # Audio configs
 odm/etc/mixer_paths.xml
