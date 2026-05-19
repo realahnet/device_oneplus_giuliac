@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Ace 5 (PKG110_16.0.5.702(CN01)).
+## are from OnePlus Ace 5 (PKG110_16.0.7.200(CN01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -144,7 +144,6 @@ odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/cfr_bin/CFR_imx355.bin
 odm/etc/camera/cfr_bin/CFR_imx906.bin
 odm/etc/camera/cfr_bin/CFR_s5kjn5_giulia.bin
-odm/etc/camera/config/camera_third_party_feature_config.protobuf
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx480
