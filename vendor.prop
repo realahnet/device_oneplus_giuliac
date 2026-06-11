@@ -4,6 +4,10 @@ vendor.sensors.als_correction.grabrect=755 50 795 120
 # Bluetooth
 bluetooth.device.default_name=OnePlus Ace 5
 
+# Camera
+ro.vendor.oplus.market.enname=OnePlus Ace 5
+ro.vendor.oplus.market.name=OnePlus Ace 5
+
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=80
 ro.surface_flinger.set_touch_timer_ms=200
