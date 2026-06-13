@@ -24,8 +24,6 @@ TARGET_SCREEN_WIDTH := 1264
 
 # Camera
 $(call soong_config_set,libbinder,binder_vm_size_4mb,true)
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config
 
 # Display
 $(call soong_config_set,qtidisplay,bitclk_rate_permissive,true)

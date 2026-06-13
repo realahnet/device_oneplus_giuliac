@@ -752,6 +752,7 @@ odm/etc/camera/tonemap/tonemap_lut_8
 odm/etc/camera/tonemap/tonemap_lut_9
 odm/etc/camera/AiFace.json
 odm/etc/camera/BodySeg.json
+odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/CameraOemConfiguration.config
 odm/etc/camera/M_FaceAttribute_RGB.model
 odm/etc/camera/Vega_Attribute_Face_RGB.model
