@@ -143,8 +143,12 @@ odm/etc/camera/cfr_bin/CFR_imx906.bin
 odm/etc/camera/cfr_bin/CFR_s5kjn5_giulia.bin
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
+odm/etc/camera/config/imx355
 odm/etc/camera/config/imx480
+odm/etc/camera/config/imx906
+odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_algo_traversal_config.json
+odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/oplus_camera_preview_decision_config.json
 odm/etc/camera/config/oplus_preview_decision_params.json
