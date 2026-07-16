@@ -119,6 +119,14 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libui.so', 'libui-stock.so'),
     'vendor/lib64/libui-stock.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
+
+    'odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service_uff': blob_fixup()
+        .add_needed('libbase_shim.so'),
+
+    'vendor/lib64/libcamera2ndk_vendor.so': blob_fixup()
+        .replace_needed('android.frameworks.cameraservice.device-V1-ndk.so', 'android.frameworks.cameraservice.device-V3-ndk.so')
+        .replace_needed('android.frameworks.cameraservice.service-V1-ndk.so', 'android.frameworks.cameraservice.service-V3-ndk.so'),
+
 }  # fmt: skip
 
 module = ExtractUtilsModule(
