@@ -71,6 +71,12 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
 
+# Sensors
+$(call soong_config_set,oplus_sensors,uses_als_capture,true)
+
+PRODUCT_PACKAGES += \
+    vendor.lineage.oplus_als.service
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
