@@ -15,5 +15,8 @@ ro.vendor.oplus.market.name=OnePlus Ace 5
 ro.surface_flinger.set_idle_timer_ms=80
 ro.surface_flinger.set_touch_timer_ms=200
 
+# Touch
+persist.vendor.touch.hbp_pipeline=0
+
 # USB
 vendor.usb.product_string=OnePlus Ace 5
